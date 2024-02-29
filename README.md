@@ -1,4 +1,15 @@
-**Let's go ahead and build it ourselves within 5 minutes**
+## Meltano-demo
+An ELT pipeline
+
+# Configuaration
+Set environment variables:  
+Create a new ".env" file following the example shown in ".env.example" and enter your own environment variables.  
+The project requires the following environment variables to be input:
+```env
+TAP_GITHUB_AUTH_TOKEN=
+TARGET_POSTGRES_PASSWORD=
+DBT_POSTGRES_PASSWORD=
+```
 
 # Step 1 - run your EL pipeline
 > `meltano run tap-github target-postgres`
